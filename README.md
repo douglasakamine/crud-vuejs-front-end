@@ -1,4 +1,7 @@
-# crud
+# Crud in Vue JS 
+
+#### This is a simple example of CRUD in Vue JS
+#### Developed by Douglas Akamine
 
 ## Project setup
 ```

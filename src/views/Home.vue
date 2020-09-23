@@ -5,10 +5,10 @@
       </header>
       <b-container class="mt-3">
         <b-row>
-          <b-col>
+          <b-col-3 class="m-1">
             <Form />
-          </b-col>
-          <b-col><UserTable /></b-col>
+          </b-col-3>
+          <b-col-7 class="m-1"><UserTable /></b-col-7>
         </b-row>
       </b-container>
    <footer class="fixed-bottom bg-dark text-white text-center">

@@ -1,4 +1,5 @@
 <template>
+<div class="overflow-auto">
     <table>
         <thead>
             <tr>
@@ -27,6 +28,7 @@
             </tr>
         </tbody>
     </table>
+</div>
 </template>
 
 <script>
@@ -35,7 +37,8 @@ import { mapGetters } from 'vuex'
 export default {
   data () {
     return {
-      editable: false
+      perPage: 3,
+      currentPage: 1
     }
   },
   computed: {
